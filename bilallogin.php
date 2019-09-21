@@ -1,15 +1,15 @@
 
 <?php
 
-$a = $_POST["t2"];
-$b = $_POST["t3"];
+$a = $_POST["txt"];
+$b = $_POST["pswrd"];
 
 echo "<br>Username::<br/> ".$a;
 
-if($a == "ali" && $b == "123")
+if($a == "Bilal" && $b == "Mughal")
 {
 	echo "Loginsuccess";
-	include("select.php");
+	include("home.html");
 }
    else 
    {
